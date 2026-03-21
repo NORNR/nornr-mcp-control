@@ -1,4 +1,11 @@
+![NORNR MCP Control banner](./assets/nornr-mcp-control-banner.svg)
+
 # NORNR MCP Control
+
+[![Package page](https://img.shields.io/badge/nornr.com-MCP%20Control%20Server-0f172a?style=flat-square)](https://nornr.com/mcp-control-server)
+[![Config generator](https://img.shields.io/badge/install-copy--paste%20config-1f2937?style=flat-square)](https://nornr.com/mcp-config-generator)
+[![Default pack](https://img.shields.io/badge/default%20pack-mcp--local--tools--guarded-334155?style=flat-square)](https://nornr.com/community-policy-packs)
+[![Raw MCP comparison](https://img.shields.io/badge/why%20not-raw%20MCP%20tools-475569?style=flat-square)](https://nornr.com/nornr-vs-raw-mcp-tools)
 
 Official public MCP package for NORNR, the control layer before consequential MCP tool execution.
 
@@ -178,6 +185,15 @@ That is why NORNR sits above execution:
 
 The right promise is not "the model becomes safe."
 It is that the control layer still holds when the model becomes unreliable.
+
+## Still sequence
+
+The fastest visual explanation is the same four-step still sequence every time:
+
+![Still 1: Agent proposes a consequential tool action](./assets/still-01-proposed.svg)
+![Still 2: NORNR returns approval required and holds release](./assets/still-02-queued.svg)
+![Still 3: Operator review happens in the control path](./assets/still-03-review.svg)
+![Still 4: Action resumes and lands in one defended record](./assets/still-04-released.svg)
 
 ## Default policy pack
 

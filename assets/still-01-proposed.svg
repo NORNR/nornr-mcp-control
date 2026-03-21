@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Still 1 proposed action</title>
+  <desc id="desc">A local agent proposes a consequential action through NORNR MCP Control.</desc>
+  <rect width="1280" height="720" fill="#f8fafc"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="84" font-size="18" fill="#475569" letter-spacing="3">STILL 01 / PROPOSED ACTION</text>
+    <text x="72" y="148" font-size="44" fill="#0f172a" font-weight="600">The local agent proposes one consequential action</text>
+    <rect x="72" y="206" width="528" height="404" rx="24" fill="#111827"/>
+    <text x="104" y="252" font-size="16" fill="#94a3b8">CURSOR / CLAUDE DESKTOP</text>
+    <text x="104" y="312" font-size="30" fill="#f8fafc" font-weight="600">"Use the local billing tool to upgrade the vendor plan."</text>
+    <rect x="104" y="364" width="464" height="178" rx="18" fill="#0f172a" stroke="#334155"/>
+    <text x="132" y="404" font-size="16" fill="#94a3b8">TOOL REQUEST</text>
+    <text x="132" y="448" font-size="26" fill="#f8fafc" font-weight="600">counterparty: vendor-api</text>
+    <text x="132" y="486" font-size="22" fill="#cbd5e1">purpose: upgrade plan</text>
+    <text x="132" y="522" font-size="22" fill="#cbd5e1">surface: local mcp tool</text>
+    <rect x="680" y="234" width="528" height="332" rx="24" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="716" y="282" font-size="16" fill="#64748b">NORNR CONTROL LAYER</text>
+    <text x="716" y="344" font-size="34" fill="#0f172a" font-weight="600">One tool request becomes one intent</text>
+    <text x="716" y="396" font-size="22" fill="#334155">owner, amount, counterparty and reason enter as one record</text>
+    <text x="716" y="446" font-size="22" fill="#334155">before the downstream tool call clears</text>
+  </g>
+</svg>
