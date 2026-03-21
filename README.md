@@ -220,30 +220,6 @@ It means stop the autonomous path and route it into review.
 4. Approve or reject explicitly.
 5. Let the resulting action survive into proof, finance packet and audit export later.
 
-## Suggested demo GIF
-
-The clearest first demo is:
-
-1. the local agent proposes a consequential action
-2. NORNR returns `approval_required`
-3. the client pauses instead of continuing
-4. an operator approves
-5. the action resumes with one defended record afterward
-
-## Demo storyboard
-
-If you record a first public demo, keep it short and literal:
-
-1. Open Cursor or Claude Desktop with NORNR installed as the MCP control server.
-2. Ask the agent to take a consequential local action.
-3. Show NORNR returning `approval_required` or `blocked`.
-4. Show that the local client pauses instead of improvising around review.
-5. Approve from the control path.
-6. Show the action continue and land in one review-ready, finance-ready trail.
-
-The point of the demo is not spectacle.
-It is to make the control model obvious in one viewing.
-
 ## Operating rule
 
 Do not let the MCP client proceed with a consequential tool action until NORNR returns `approved` or a named operator explicitly approves the queued intent.
