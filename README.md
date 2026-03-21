@@ -17,6 +17,13 @@ The governance logic lives in the official NORNR Python SDK:
 - SDK repo: [NORNR/sdk-py](https://github.com/NORNR/sdk-py)
 - Package: `nornr-agentpay`
 
+The shortest correct reading is:
+
+- one local tool request becomes one NORNR intent
+- NORNR decides whether it is approved, queued or blocked
+- queued work enters named review with context attached
+- the same action still survives into proof, finance packet and audit export later
+
 ## What this is
 
 NORNR is not another MCP tool.
@@ -132,6 +139,16 @@ python nornr_mcp_control.py cursor-config
 python nornr_mcp_control.py manifest
 ```
 
+## Cursor rule
+
+Add this to `.cursorrules` if Cursor is allowed to use local tools through NORNR:
+
+```text
+Use NORNR as the control layer before consequential tool execution.
+Do not proceed with a paid, vendor-side or policy-sensitive action until NORNR returns approved or a named operator explicitly approves the queued intent.
+Treat queued, blocked, anomalous or review-required posture as a stop state for autonomous execution.
+```
+
 ## Default policy pack
 
 Start from `mcp-local-tools-guarded`.
@@ -156,6 +173,16 @@ It means stop the autonomous path and route it into review.
 3. Review counterparty posture, amount, purpose and mandate fit.
 4. Approve or reject explicitly.
 5. Let the resulting action survive into proof, finance packet and audit export later.
+
+## Suggested demo GIF
+
+The clearest first demo is:
+
+1. the local agent proposes a consequential action
+2. NORNR returns `approval_required`
+3. the client pauses instead of continuing
+4. an operator approves
+5. the action resumes with one defended record afterward
 
 ## Operating rule
 
