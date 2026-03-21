@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Still 2 queued decision</title>
+  <desc id="desc">NORNR returns approval required and holds the consequential MCP action.</desc>
+  <rect width="1280" height="720" fill="#f8fafc"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="72" y="84" font-size="18" fill="#475569" letter-spacing="3">STILL 02 / QUEUED</text>
+    <text x="72" y="142" font-size="38" fill="#0f172a" font-weight="600">NORNR returns approval required and holds release</text>
+    <rect x="72" y="198" width="1136" height="424" rx="28" fill="#111827"/>
+    <text x="112" y="270" font-size="16" fill="#94a3b8">CONTROL DECISION</text>
+    <rect x="112" y="292" width="420" height="112" rx="18" fill="#7f1d1d" stroke="#ef4444"/>
+    <text x="144" y="336" font-size="18" fill="#fecaca">STATUS</text>
+    <text x="144" y="376" font-size="34" fill="#fff1f2" font-weight="600">approval_required</text>
+    <rect x="112" y="436" width="420" height="132" rx="18" fill="#0f172a" stroke="#334155"/>
+    <text x="144" y="478" font-size="18" fill="#94a3b8">PRIMARY REASON</text>
+    <text x="144" y="516" font-size="24" fill="#f8fafc" font-weight="600">review required before</text>
+    <text x="144" y="546" font-size="24" fill="#f8fafc" font-weight="600">vendor-side change</text>
+    <rect x="576" y="292" width="592" height="276" rx="18" fill="#0f172a" stroke="#334155"/>
+    <text x="644" y="336" font-size="18" fill="#94a3b8">CLIENT OUTCOME</text>
+    <text x="612" y="382" font-size="28" fill="#f8fafc" font-weight="600">The local client pauses</text>
+    <text x="612" y="416" font-size="28" fill="#f8fafc" font-weight="600">instead of continuing</text>
+    <text x="612" y="466" font-size="21" fill="#cbd5e1">No raw MCP execution clears.</text>
+    <text x="612" y="496" font-size="21" fill="#cbd5e1">The request waits for review,</text>
+    <text x="612" y="526" font-size="21" fill="#cbd5e1">with owner, counterparty and purpose attached.</text>
+  </g>
+</svg>

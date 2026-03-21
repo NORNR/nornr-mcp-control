@@ -1,4 +1,4 @@
-![NORNR MCP Control banner](./assets/nornr-mcp-control-banner.svg)
+![NORNR MCP Control banner](./assets/nornr-mcp-control-banner-v2.svg)
 
 # NORNR MCP Control
 
@@ -191,9 +191,9 @@ It is that the control layer still holds when the model becomes unreliable.
 The fastest visual explanation is the same four-step still sequence every time:
 
 ![Still 1: Agent proposes a consequential tool action](./assets/still-01-proposed.svg)
-![Still 2: NORNR returns approval required and holds release](./assets/still-02-queued.svg)
+![Still 2: NORNR returns approval required and holds release](./assets/still-02-queued-v2.svg)
 ![Still 3: Operator review happens in the control path](./assets/still-03-review.svg)
-![Still 4: Action resumes and lands in one defended record](./assets/still-04-released.svg)
+![Still 4: Action resumes and lands in one defended record](./assets/still-04-released-v2.svg)
 
 ## Default policy pack
 
