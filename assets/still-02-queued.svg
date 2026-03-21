@@ -4,21 +4,22 @@
   <rect width="1280" height="720" fill="#f8fafc"/>
   <g font-family="Inter, Arial, sans-serif">
     <text x="72" y="84" font-size="18" fill="#475569" letter-spacing="3">STILL 02 / QUEUED</text>
-    <text x="72" y="148" font-size="44" fill="#0f172a" font-weight="600">NORNR returns approval required and holds release</text>
-    <rect x="72" y="214" width="1136" height="420" rx="28" fill="#111827"/>
+    <text x="72" y="144" font-size="40" fill="#0f172a" font-weight="600">NORNR returns approval required and holds release</text>
+    <rect x="72" y="198" width="1136" height="424" rx="28" fill="#111827"/>
     <text x="112" y="270" font-size="16" fill="#94a3b8">CONTROL DECISION</text>
-    <rect x="112" y="310" width="420" height="112" rx="18" fill="#7f1d1d" stroke="#ef4444"/>
-    <text x="144" y="354" font-size="18" fill="#fecaca">STATUS</text>
-    <text x="144" y="394" font-size="34" fill="#fff1f2" font-weight="600">approval_required</text>
-    <rect x="112" y="454" width="420" height="132" rx="18" fill="#0f172a" stroke="#334155"/>
-    <text x="144" y="496" font-size="18" fill="#94a3b8">PRIMARY REASON</text>
-    <text x="144" y="534" font-size="26" fill="#f8fafc" font-weight="600">review required before</text>
-    <text x="144" y="566" font-size="26" fill="#f8fafc" font-weight="600">vendor-side change</text>
-    <rect x="576" y="310" width="592" height="266" rx="18" fill="#0f172a" stroke="#334155"/>
-    <text x="644" y="352" font-size="18" fill="#94a3b8">CLIENT OUTCOME</text>
-    <text x="612" y="402" font-size="32" fill="#f8fafc" font-weight="600">The local client pauses</text>
-    <text x="612" y="440" font-size="32" fill="#f8fafc" font-weight="600">instead of continuing</text>
-    <text x="612" y="492" font-size="23" fill="#cbd5e1">No raw MCP execution clears. The request waits</text>
-    <text x="612" y="526" font-size="23" fill="#cbd5e1">for review, with owner, counterparty and purpose attached.</text>
+    <rect x="112" y="292" width="420" height="112" rx="18" fill="#7f1d1d" stroke="#ef4444"/>
+    <text x="144" y="336" font-size="18" fill="#fecaca">STATUS</text>
+    <text x="144" y="376" font-size="34" fill="#fff1f2" font-weight="600">approval_required</text>
+    <rect x="112" y="436" width="420" height="132" rx="18" fill="#0f172a" stroke="#334155"/>
+    <text x="144" y="478" font-size="18" fill="#94a3b8">PRIMARY REASON</text>
+    <text x="144" y="516" font-size="24" fill="#f8fafc" font-weight="600">review required before</text>
+    <text x="144" y="546" font-size="24" fill="#f8fafc" font-weight="600">vendor-side change</text>
+    <rect x="576" y="292" width="592" height="276" rx="18" fill="#0f172a" stroke="#334155"/>
+    <text x="644" y="336" font-size="18" fill="#94a3b8">CLIENT OUTCOME</text>
+    <text x="612" y="384" font-size="30" fill="#f8fafc" font-weight="600">The local client pauses</text>
+    <text x="612" y="420" font-size="30" fill="#f8fafc" font-weight="600">instead of continuing</text>
+    <text x="612" y="472" font-size="22" fill="#cbd5e1">No raw MCP execution clears. The request waits</text>
+    <text x="612" y="504" font-size="22" fill="#cbd5e1">for review, with owner, counterparty and</text>
+    <text x="612" y="536" font-size="22" fill="#cbd5e1">purpose attached.</text>
   </g>
 </svg>

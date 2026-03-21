@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="700" viewBox="0 0 1280 700" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="680" viewBox="0 0 1280 680" role="img" aria-labelledby="title desc">
   <title id="title">NORNR MCP Control</title>
   <desc id="desc">Banner for NORNR MCP Control showing decision, review, and export before consequential MCP tool execution.</desc>
   <defs>
@@ -7,35 +7,35 @@
       <stop offset="100%" stop-color="#e7e5e4"/>
     </linearGradient>
   </defs>
-  <rect width="1280" height="700" fill="url(#bg)"/>
-  <rect x="56" y="48" width="1168" height="604" rx="28" fill="#111827"/>
+  <rect width="1280" height="680" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1168" height="584" rx="28" fill="#111827"/>
   <g font-family="Inter, Arial, sans-serif" fill="#f9fafb">
     <text x="96" y="116" font-size="18" letter-spacing="3" opacity="0.8">NORNR / MCP CONTROL</text>
-    <text x="96" y="192" font-size="54" font-weight="600">The control layer before consequential</text>
-    <text x="96" y="252" font-size="54" font-weight="600">MCP tool execution</text>
-    <text x="96" y="316" font-size="24" opacity="0.86">Approve, queue or block before local tool use turns into spend, vendor action or</text>
-    <text x="96" y="350" font-size="24" opacity="0.86">policy drift. Keep one review path and one defended record afterward.</text>
+    <text x="96" y="186" font-size="50" font-weight="600">The control layer before consequential</text>
+    <text x="96" y="242" font-size="50" font-weight="600">MCP tool execution</text>
+    <text x="96" y="302" font-size="22" opacity="0.86">Approve, queue or block before local tool use turns into spend, vendor action or</text>
+    <text x="96" y="334" font-size="22" opacity="0.86">policy drift. Keep one review path and one defended record afterward.</text>
   </g>
   <g font-family="Inter, Arial, sans-serif">
-    <rect x="96" y="414" width="270" height="154" rx="20" fill="#0f172a" stroke="#334155"/>
-    <text x="124" y="450" font-size="16" fill="#94a3b8">INTENT</text>
-    <text x="124" y="488" font-size="26" fill="#f8fafc" font-weight="600">Request enters</text>
-    <text x="124" y="520" font-size="26" fill="#f8fafc" font-weight="600">as one record</text>
-    <text x="124" y="556" font-size="18" fill="#cbd5e1">tool request, amount, owner,</text>
-    <text x="124" y="582" font-size="18" fill="#cbd5e1">counterparty</text>
+    <rect x="96" y="396" width="320" height="154" rx="20" fill="#0f172a" stroke="#334155"/>
+    <text x="124" y="432" font-size="16" fill="#94a3b8">INTENT</text>
+    <text x="124" y="470" font-size="24" fill="#f8fafc" font-weight="600">Request enters</text>
+    <text x="124" y="500" font-size="24" fill="#f8fafc" font-weight="600">as one record</text>
+    <text x="124" y="536" font-size="18" fill="#cbd5e1">tool request, amount, owner,</text>
+    <text x="124" y="562" font-size="18" fill="#cbd5e1">counterparty</text>
 
-    <rect x="394" y="414" width="300" height="154" rx="20" fill="#1e293b" stroke="#475569"/>
-    <text x="422" y="450" font-size="16" fill="#94a3b8">DECISION</text>
-    <text x="422" y="488" font-size="26" fill="#f8fafc" font-weight="600">Approved, queued</text>
-    <text x="422" y="520" font-size="26" fill="#f8fafc" font-weight="600">or blocked</text>
-    <text x="422" y="556" font-size="18" fill="#cbd5e1">mandate, policy,</text>
-    <text x="422" y="582" font-size="18" fill="#cbd5e1">review posture</text>
+    <rect x="448" y="396" width="320" height="154" rx="20" fill="#1e293b" stroke="#475569"/>
+    <text x="476" y="432" font-size="16" fill="#94a3b8">DECISION</text>
+    <text x="476" y="470" font-size="24" fill="#f8fafc" font-weight="600">Approved, queued</text>
+    <text x="476" y="500" font-size="24" fill="#f8fafc" font-weight="600">or blocked</text>
+    <text x="476" y="536" font-size="18" fill="#cbd5e1">mandate, policy,</text>
+    <text x="476" y="562" font-size="18" fill="#cbd5e1">review posture</text>
 
-    <rect x="722" y="414" width="462" height="154" rx="20" fill="#334155" stroke="#64748b"/>
-    <text x="750" y="450" font-size="16" fill="#cbd5e1">SURVIVAL</text>
-    <text x="750" y="488" font-size="25" fill="#f8fafc" font-weight="600">Review bundle, finance packet,</text>
-    <text x="750" y="520" font-size="25" fill="#f8fafc" font-weight="600">audit export</text>
-    <text x="750" y="556" font-size="18" fill="#e2e8f0">the local action survives outside</text>
-    <text x="750" y="582" font-size="18" fill="#e2e8f0">the client</text>
+    <rect x="800" y="396" width="384" height="154" rx="20" fill="#334155" stroke="#64748b"/>
+    <text x="828" y="432" font-size="16" fill="#cbd5e1">SURVIVAL</text>
+    <text x="828" y="470" font-size="24" fill="#f8fafc" font-weight="600">Review bundle,</text>
+    <text x="828" y="500" font-size="24" fill="#f8fafc" font-weight="600">finance packet, audit export</text>
+    <text x="828" y="536" font-size="18" fill="#e2e8f0">the local action survives</text>
+    <text x="828" y="562" font-size="18" fill="#e2e8f0">outside the client</text>
   </g>
 </svg>
