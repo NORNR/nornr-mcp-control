@@ -1,4 +1,4 @@
-![NORNR MCP Control banner](./assets/nornr-mcp-control-banner-v3.svg)
+![NORNR MCP Control banner](./assets/nornr-mcp-control-banner-v4.svg)
 
 # NORNR MCP Control
 
