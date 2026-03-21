@@ -31,11 +31,11 @@
     <text x="460" y="548" font-size="17" fill="#cbd5e1">mandate, policy,</text>
     <text x="460" y="574" font-size="17" fill="#cbd5e1">review posture</text>
 
-    <rect x="776" y="420" width="408" height="192" rx="20" fill="#334155" stroke="#64748b"/>
-    <text x="804" y="458" font-size="16" fill="#cbd5e1">SURVIVAL</text>
-    <text x="804" y="496" font-size="21" fill="#f8fafc" font-weight="600">Review bundle</text>
-    <text x="804" y="526" font-size="21" fill="#f8fafc" font-weight="600">Finance packet</text>
-    <text x="804" y="556" font-size="21" fill="#f8fafc" font-weight="600">Audit export</text>
+    <rect x="776" y="414" width="408" height="206" rx="20" fill="#334155" stroke="#64748b"/>
+    <text x="804" y="452" font-size="16" fill="#cbd5e1">SURVIVAL</text>
+    <text x="804" y="490" font-size="21" fill="#f8fafc" font-weight="600">Review bundle</text>
+    <text x="804" y="520" font-size="21" fill="#f8fafc" font-weight="600">Finance packet</text>
+    <text x="804" y="550" font-size="21" fill="#f8fafc" font-weight="600">Audit export</text>
     <text x="804" y="580" font-size="17" fill="#e2e8f0">the local action survives</text>
     <text x="804" y="602" font-size="17" fill="#e2e8f0">outside the client</text>
   </g>
