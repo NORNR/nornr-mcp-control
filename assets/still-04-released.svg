@@ -16,8 +16,10 @@
     <text x="144" y="578" font-size="22" fill="#cbd5e1">audit export</text>
     <rect x="612" y="282" width="556" height="296" rx="18" fill="#0f172a" stroke="#334155"/>
     <text x="648" y="326" font-size="18" fill="#94a3b8">BUYER OUTCOME</text>
-    <text x="648" y="380" font-size="34" fill="#f8fafc" font-weight="600">One local lane becomes defensible</text>
-    <text x="648" y="436" font-size="24" fill="#cbd5e1">The model stays useful, but consequential tool execution</text>
-    <text x="648" y="472" font-size="24" fill="#cbd5e1">now moves through policy, review and export instead of raw capability.</text>
+    <text x="648" y="378" font-size="31" fill="#f8fafc" font-weight="600">One local lane</text>
+    <text x="648" y="416" font-size="31" fill="#f8fafc" font-weight="600">becomes defensible</text>
+    <text x="648" y="468" font-size="23" fill="#cbd5e1">The model stays useful, but consequential tool execution</text>
+    <text x="648" y="502" font-size="23" fill="#cbd5e1">now moves through policy, review and export</text>
+    <text x="648" y="536" font-size="23" fill="#cbd5e1">instead of raw capability.</text>
   </g>
 </svg>
