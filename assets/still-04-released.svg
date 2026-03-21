@@ -4,22 +4,22 @@
   <rect width="1280" height="720" fill="#f8fafc"/>
   <g font-family="Inter, Arial, sans-serif">
     <text x="72" y="84" font-size="18" fill="#475569" letter-spacing="3">STILL 04 / RELEASED</text>
-    <text x="72" y="144" font-size="40" fill="#0f172a" font-weight="600">The action resumes and lands in one defended record</text>
+    <text x="72" y="142" font-size="38" fill="#0f172a" font-weight="600">The action resumes and lands in one defended record</text>
     <rect x="72" y="198" width="1136" height="424" rx="28" fill="#111827"/>
     <rect x="112" y="274" width="420" height="116" rx="18" fill="#14532d" stroke="#22c55e"/>
     <text x="144" y="318" font-size="18" fill="#bbf7d0">STATUS</text>
     <text x="144" y="358" font-size="34" fill="#f0fdf4" font-weight="600">approved</text>
-    <rect x="112" y="422" width="420" height="156" rx="18" fill="#0f172a" stroke="#334155"/>
-    <text x="144" y="464" font-size="18" fill="#94a3b8">SURVIVAL</text>
-    <text x="144" y="506" font-size="26" fill="#f8fafc" font-weight="600">review bundle</text>
-    <text x="144" y="542" font-size="21" fill="#cbd5e1">finance packet</text>
-    <text x="144" y="576" font-size="21" fill="#cbd5e1">audit export</text>
+    <rect x="112" y="412" width="420" height="176" rx="18" fill="#0f172a" stroke="#334155"/>
+    <text x="144" y="454" font-size="18" fill="#94a3b8">SURVIVAL</text>
+    <text x="144" y="496" font-size="25" fill="#f8fafc" font-weight="600">review bundle</text>
+    <text x="144" y="532" font-size="20" fill="#cbd5e1">finance packet</text>
+    <text x="144" y="566" font-size="20" fill="#cbd5e1">audit export</text>
     <rect x="612" y="274" width="556" height="304" rx="18" fill="#0f172a" stroke="#334155"/>
     <text x="648" y="318" font-size="18" fill="#94a3b8">BUYER OUTCOME</text>
-    <text x="648" y="368" font-size="29" fill="#f8fafc" font-weight="600">One local lane</text>
-    <text x="648" y="404" font-size="29" fill="#f8fafc" font-weight="600">becomes defensible</text>
-    <text x="648" y="456" font-size="22" fill="#cbd5e1">The model stays useful, but consequential tool</text>
-    <text x="648" y="488" font-size="22" fill="#cbd5e1">execution now moves through policy, review</text>
-    <text x="648" y="520" font-size="22" fill="#cbd5e1">and export instead of raw capability.</text>
+    <text x="648" y="366" font-size="28" fill="#f8fafc" font-weight="600">One local lane</text>
+    <text x="648" y="400" font-size="28" fill="#f8fafc" font-weight="600">becomes defensible</text>
+    <text x="648" y="452" font-size="21" fill="#cbd5e1">The model stays useful, but consequential tool</text>
+    <text x="648" y="482" font-size="21" fill="#cbd5e1">execution now moves through policy, review</text>
+    <text x="648" y="512" font-size="21" fill="#cbd5e1">and export instead of raw capability.</text>
   </g>
 </svg>
