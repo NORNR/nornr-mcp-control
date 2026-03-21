@@ -9,10 +9,6 @@
 
 Official public MCP package for NORNR, the control layer before consequential MCP tool execution.
 
-![NORNR MCP Control demo](./assets/nornr-mcp-control-demo.gif)
-
-[Download MP4 version](./assets/nornr-mcp-control-demo.mp4)
-
 This repo is intentionally thin.
 
 It exists to make NORNR easy to discover, install and evaluate from MCP-native surfaces such as:
