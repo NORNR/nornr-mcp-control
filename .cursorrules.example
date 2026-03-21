@@ -1,0 +1,10 @@
+Use NORNR as the control layer before consequential MCP tool execution.
+
+Operating rule:
+- Do not proceed with a consequential tool action until NORNR returns approved or a named operator explicitly approves the queued intent.
+- Treat queued, blocked, anomalous, prompt-risk or review-required posture as a stop state for autonomous execution.
+
+Default posture:
+- Start from one consequential lane, not broad local autonomy.
+- Prefer the mcp-local-tools-guarded pack first.
+- Keep proof, finance packet and audit export attached to the same record.

@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "nornr": {
+      "command": "python3",
+      "args": [
+        "/absolute/path/to/nornr_mcp_control.py",
+        "serve"
+      ],
+      "env": {
+        "NORNR_API_KEY": "replace-with-your-key",
+        "NORNR_BASE_URL": "https://nornr.com",
+        "NORNR_AGENT_ID": "desktop-agent"
+      }
+    }
+  }
+}
