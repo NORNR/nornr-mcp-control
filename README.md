@@ -24,6 +24,21 @@ The shortest correct reading is:
 - queued work enters named review with context attached
 - the same action still survives into proof, finance packet and audit export later
 
+## Emergency freeze
+
+NORNR is not only the decision layer before execution.
+It is also the emergency stop layer when a local lane becomes unsafe.
+
+Use it when a desktop or local agent:
+
+- starts looping on tool calls
+- reaches a disputed or watched counterparty
+- drifts into policy-sensitive actions
+- needs to be held in review-only mode while an operator inspects the lane
+
+The right mental model is not "best effort warnings."
+It is controlled release, controlled pause and controlled recovery.
+
 ## What this is
 
 NORNR is not another MCP tool.
@@ -149,6 +164,21 @@ Do not proceed with a paid, vendor-side or policy-sensitive action until NORNR r
 Treat queued, blocked, anomalous or review-required posture as a stop state for autonomous execution.
 ```
 
+## Prompt injection does not override mandate
+
+Prompt injection can change what the model wants to do.
+It should not change what the lane is allowed to do.
+
+That is why NORNR sits above execution:
+
+- prompt pressure does not create approval
+- model persuasion does not widen mandate
+- a risky tool request can still be queued or blocked even if the model insists
+- counterparty posture and review requirements still survive into the same record
+
+The right promise is not "the model becomes safe."
+It is that the control layer still holds when the model becomes unreliable.
+
 ## Default policy pack
 
 Start from `mcp-local-tools-guarded`.
@@ -183,6 +213,20 @@ The clearest first demo is:
 3. the client pauses instead of continuing
 4. an operator approves
 5. the action resumes with one defended record afterward
+
+## Demo storyboard
+
+If you record a first public demo, keep it short and literal:
+
+1. Open Cursor or Claude Desktop with NORNR installed as the MCP control server.
+2. Ask the agent to take a consequential local action.
+3. Show NORNR returning `approval_required` or `blocked`.
+4. Show that the local client pauses instead of improvising around review.
+5. Approve from the control path.
+6. Show the action continue and land in one review-ready, finance-ready trail.
+
+The point of the demo is not spectacle.
+It is to make the control model obvious in one viewing.
 
 ## Operating rule
 
