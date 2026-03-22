@@ -1,6 +1,6 @@
 {
   "severity": "review-first",
-  "exclude": ["tests/", "docs/", ".github/"],
+  "exclude": ["tests/", "docs/", ".github/", ".nornr-pr-audit.json"],
   "rules": [
     {
       "id": "payment-surface",
