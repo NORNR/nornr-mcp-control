@@ -209,6 +209,15 @@ That is the default first posture when a local MCP client can reach:
 The goal is not to govern every local action on day one.
 The goal is to install one defended local lane first.
 
+## If the team already has code
+
+Do not start with config first if the team already ships an agent repo.
+
+Run a NORNR Governance Audit against the repo first, name the exposed paths, and then install the MCP control server where consequential local execution actually needs review.
+
+- Governance audit: [nornr.com/governance-audit](https://nornr.com/governance-audit)
+- MCP config generator: [nornr.com/mcp-config-generator](https://nornr.com/mcp-config-generator)
+
 ## What happens after queued
 
 Queued does not mean proceed carefully.
@@ -250,6 +259,7 @@ If your team requires dependency review, inspect the pinned SDK release before e
 
 - MCP package page: [nornr.com/mcp-control-server](https://nornr.com/mcp-control-server)
 - MCP config generator: [nornr.com/mcp-config-generator](https://nornr.com/mcp-config-generator)
+- Governance audit: [nornr.com/governance-audit](https://nornr.com/governance-audit)
 - Claude Desktop guide: [nornr.com/guides/claude-desktop-mcp-control-server](https://nornr.com/guides/claude-desktop-mcp-control-server)
 - Cursor guide: [nornr.com/guides/cursor-mcp-control-server](https://nornr.com/guides/cursor-mcp-control-server)
 - Raw MCP comparison: [nornr.com/nornr-vs-raw-mcp-tools](https://nornr.com/nornr-vs-raw-mcp-tools)
