@@ -1,0 +1,4 @@
+{
+  "severity": "review-first",
+  "exclude": ["tests/", "docs/"]
+}
