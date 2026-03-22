@@ -1,4 +1,24 @@
 {
   "severity": "review-first",
-  "exclude": ["tests/", "docs/", ".github/"]
+  "exclude": ["tests/", "docs/", ".github/"],
+  "rules": [
+    {
+      "id": "payment-surface",
+      "label": "Payment or checkout surface",
+      "pattern": "stripe|billing|checkout|invoice|payment|transfer",
+      "suggestion": "Consider browser checkout governance, finance close packet or a vendor-procurement lane before this merges ungoverned."
+    },
+    {
+      "id": "vendor-action",
+      "label": "External provider or vendor action",
+      "pattern": "openai|anthropic|perplexity|modal|browser",
+      "suggestion": "Consider a counterparty-aware NORNR lane so the new external action clears policy and review first."
+    },
+    {
+      "id": "tool-surface",
+      "label": "Tool or MCP surface",
+      "pattern": "create_mcp_tools|list_tools|mcp|tool_call|function_call",
+      "suggestion": "Consider the MCP control server or one governed runtime lane before this capability reaches main."
+    }
+  ]
 }
